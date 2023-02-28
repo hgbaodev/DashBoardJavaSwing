@@ -43,12 +43,13 @@
 
       <Layout>
         <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="1" attributes="0">
-              <Component id="header" max="32767" attributes="0"/>
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="header" pref="1186" max="32767" attributes="0"/>
               <Group type="102" attributes="0">
-                  <Component id="menu" min="-2" max="-2" attributes="0"/>
+                  <Component id="menu" min="-2" pref="201" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="mainBody" min="-2" pref="970" max="-2" attributes="0"/>
+                  <Component id="mainBody" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -58,10 +59,10 @@
                   <Component id="header" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="menu" pref="625" max="32767" attributes="0"/>
+                      <Component id="menu" pref="628" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Component id="mainBody" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
